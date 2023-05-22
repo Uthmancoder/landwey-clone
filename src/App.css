@@ -1,0 +1,243 @@
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bttn{
+  background-color: rgb(250, 100, 0);
+  color: white;
+  border: none;
+}
+.land{
+  width: 80%;
+  margin: 2% 25%;
+}
+.navbar{
+  width: 98.7vw !important;
+  height : 80vh;
+  background-image: linear-gradient(to right, rgb(224,224,224),rgb(225, 220, 185), rgb(194,228,237));
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: -10px;
+}
+.navbar2{
+  width: 98.7vw !important;
+  height : 80vh;
+  background-color :white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: -10px;
+}
+h6{
+  color: white;
+}
+.reinv{
+  font-weight:800 ;
+font-style:normal;
+font-variant:normal;
+text-transform: none;
+text-decoration: none solid rgb(0, 0, 0);
+text-align: left;
+text-indent: 0px;
+}
+.imgg {
+  width: 100% !important;
+  border-radius: 10px;
+  margin: 0 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.imgg:hover{
+  transform: translateY(-6%);
+  transition: all linear 0.3s;
+}
+.reinvent{
+  position: relative;
+}
+.abs{
+  position: fixed;
+  right: 30px;
+  top:52%;
+}
+.abss{
+  position: fixed;
+  right: 30px;
+  top: 85%;
+}
+.img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  right: 13%;
+  top: 87%;
+}
+.imggg{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  right: 8%;
+  top: 87%;
+}
+.ddd{
+  opacity: 0.9;
+}
+.myclass{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, rgb(224,224,224),rgb(225, 220, 185), rgb(194,228,237));
+  padding-top: 20px;
+}
+.background2{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color :white;
+  padding-top: 20px;
+}
+.ccc{
+  padding-bottom: 8px !important;
+}
+
+.nav{
+  position: relative;
+  height: 100px;
+}
+.abt-drp{
+  position: absolute;
+  top: 71%;
+  z-index: 999;
+  background-color: #fff;
+  border-top: 3px solid rgb(250, 100, 0);
+  width: 21%;
+  text-align: left;
+  display: none;
+  
+}
+.schedule-drp{
+  position: absolute;
+  top: 71%;
+  z-index: 999;
+  background-color: #fff;
+  border-top: 3px solid rgb(250, 100, 0);
+  width: 21%;
+  text-align: left;
+  display: none;
+  
+}
+.abt-div:hover .abt-drp{
+  display: block;
+}
+.ddd:hover{
+  color: rgb(250, 100, 0);
+  cursor: pointer;
+}
+.abt-drp p :hover{
+  color: rgb(250, 100, 0);
+}
+.bordder{
+  padding-bottom: 20px;
+}
+.dd{
+  text-decoration: none;
+  color: black;
+}
+.dd:hover{
+  color: rgb(250, 100, 0);
+}
+.dddd{
+  color: white;
+  text-decoration: none;
+}
+.dddd:hover{
+  color: rgb(250, 100, 0);
+}
+.current{
+  width: 40%;
+  background-color: rgb(250, 100, 0);
+  padding: 20px;
+}
+.currently{
+  font-size: 80px;
+}
+.rel{
+  position: relative;
+  width: 100vw;
+
+}
+.abst{
+  position: absolute;
+  left: 30%;
+}
+.icons{
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+  position: fixed;
+  top: 45%;
+  right: 3%;
+  z-index: 999;
+
+}
+.project-nav{
+  position: sticky;
+  top: 0;
+}
+.sub{
+  background-color: rgb(250, 100, 0);
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: 200;
+}
+.sub:hover{
+  background-color: rgba(0, 0, 0, 0.);
+}
+.text3{
+  margin-top: 10px;
+}
+.aboutus{
+  margin :9px;
+}
+.aboutus:hover{
+  color: white;
+}
